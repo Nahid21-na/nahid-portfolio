@@ -43,4 +43,19 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
+}.hero {
+  height: 60vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('hero-image.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
+.hero-text {
+  text-align: center;
+}
+
